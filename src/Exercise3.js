@@ -3,7 +3,7 @@ import {useState} from 'react';
 
 const Header = (props) => {
     const [headingStyle] = useState({ color: 'maroon' });
-    const [sloganStyle] = useState({});
+    const [sloganStyle] = useState({ fontStyle: 'italic' });
 
     return (
         <div>
